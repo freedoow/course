@@ -10,7 +10,7 @@ import java.lang.reflect.Method;
  */
 public class NewClassloader extends ClassLoader {
     //文件路径
-    private  String path = "";
+    private  String path = "/Users/wuhuabao/work/learn/course/java/week1/Hello.xlass";
 
     @Override
     protected Class<?> findClass(String name) {
