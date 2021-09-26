@@ -1,4 +1,4 @@
-package com.course.courseCode.neetty;
+package com.course.coach.neetty;
 
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelFutureListener;

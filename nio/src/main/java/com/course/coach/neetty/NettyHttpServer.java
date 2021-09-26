@@ -1,4 +1,4 @@
-package com.course.courseCode.neetty;
+package com.course.coach.neetty;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.PooledByteBufAllocator;

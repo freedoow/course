@@ -1,4 +1,4 @@
-package com.course.courseCode;
+package com.course.coach;
 
 import java.io.IOException;
 import java.io.PrintWriter;
