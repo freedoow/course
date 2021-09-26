@@ -1,4 +1,4 @@
-package week1;
+package com.course.week1;
 
 import java.io.FileInputStream;
 import java.lang.reflect.Method;
@@ -10,7 +10,7 @@ import java.lang.reflect.Method;
  */
 public class NewClassloader extends ClassLoader {
     //文件路径
-    private  String path = "/Users/wuhuabao/work/learn/course/java/week1/Hello.xlass";
+    private String path = "./week1/Hello.xlass";
 
     @Override
     protected Class<?> findClass(String name) {
@@ -22,16 +22,18 @@ public class NewClassloader extends ClassLoader {
     }
 
     public byte[] readFile(String path) {
+
         byte[] buffer = null;
         try {
             FileInputStream input = new FileInputStream(path);
-            buffer =  new byte[input.available()];
+            buffer = new byte[input.available()];
             input.read(buffer);
             input.close(); //  可 finally处理
 
         } catch (Exception e) {
             e.printStackTrace();
         }
+
 
         return buffer;
     }
