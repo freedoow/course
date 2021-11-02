@@ -1,4 +1,4 @@
-package com.course.week1;
+package com.course.week1.q2;
 
 import java.io.FileInputStream;
 import java.lang.reflect.Method;

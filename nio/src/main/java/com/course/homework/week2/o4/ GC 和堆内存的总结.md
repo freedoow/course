@@ -2,6 +2,9 @@
 ### utOfMemoryError异常
 * G1
 >可以从日志看到当300m,会发生OutOfMemoryError异常
+>老年代GC时长过短 引起GC
+>
+
 * Serial 
 >各个内存区集合都值剩7%内存可使用，
 * ParallelGc

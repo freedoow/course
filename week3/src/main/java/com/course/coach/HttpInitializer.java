@@ -1,4 +1,4 @@
-package com.course.coach.neetty;
+package com.course.coach;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
